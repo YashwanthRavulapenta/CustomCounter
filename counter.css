@@ -1,0 +1,20 @@
+.button-style {
+    font-size: 16px;
+    padding: 14px 24px;
+    border-radius: 100px;
+    color: white;
+    background: linear-gradient(135deg, #ff8c00, #ff4500);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.button-style:hover {
+    background: linear-gradient(135deg, #00cccc, #0055cc);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 255, 255, 0.5);
+}
